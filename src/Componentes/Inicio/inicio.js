@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
 import "./inicio.css";
  
  
@@ -26,26 +27,28 @@ class Inicio extends React.Component {
   
   
         <div class="container marketing">
-  
+        <h1 id="subtittle">QUE TIPO DE TERRENO BUSCAS?</h1>
           <div class="row">
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://www.hude.pe/wp-content/themes/claue/assets/images/placeholder.png" alt="Generic placeholder image" width="140" height="140"></img>
-              <h2>Producto destacado 1</h2>
-              <p>Descripcion del producto o algunos datos importantes que podrian ser llamativo o interesante.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://www.hude.pe/wp-content/themes/claue/assets/images/placeholder.png" alt="Generic placeholder image" width="140" height="140"></img>
-              <h2>Producto destacado 2</h2>
-              <p>Descripcion del producto o algunos datos importantes que podrian ser llamativo o interesante.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-              <img class="rounded-circle" src="https://www.hude.pe/wp-content/themes/claue/assets/images/placeholder.png" alt="Generic placeholder image" width="140" height="140"></img>
-              <h2>Producto destacado 3</h2>
-              <p>Descripcion del producto o algunos datos importantes que podrian ser llamativo o interesante.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
-            </div>
+                <div class="col-lg-6">
+                    <div class="hovereffect">
+                        <img  width="100%" height="100%" src="https://i.stack.imgur.com/y9DpT.jpg" alt=""></img>
+                        <div class="overlay">
+                            <h2>Terrenos urbanos</h2>
+                            <p>Descripcion de este tipo de terrenos</p>
+                            <a class="info" href="#">Ir a ver</a>
+                        </div>
+                     </div>               
+                </div>
+                <div class="col-lg-6">
+                    <div class="hovereffect">
+                        <img  width="100%" height="100%" src="https://i.stack.imgur.com/y9DpT.jpg" alt=""></img>
+                        <div class="overlay">
+                            <h2>Terrenos de campo</h2>
+                            <p>Descripcion de este tipo de terrenos</p>
+                            <a class="info" href="#">Ir a ver</a>
+                        </div>
+                     </div>               
+                </div>
           </div>
   
           <hr class="featurette-divider"></hr>
