@@ -1,17 +1,17 @@
 import "../Assets/App.css"
+import Menu from "./Menu/menu";
+import Footer from "./Footer/footer";
+import Inicio from "./Inicio/inicio";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
+
     <div>
-      <span><center> ¿Que tipo de terreno quieres? </center></span>
-      <div className="Contenedor_1">
-        <div className="Contenedor_Izquierdo">
-          hola
-        </div>
-        <div className="Contenedor_Derecho">
-          
-        </div>
-      </div>
+      <Menu></Menu>
+      <Inicio></Inicio>
+      <Footer></Footer>
     </div>
   );
 }
